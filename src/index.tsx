@@ -4,6 +4,9 @@ import './index.css';
 //import App from './App';
 import Hello from "./components/Hello";
 import Name from "./components/Name";
+import Message from './components/Message';
+import Parent from './components/Parent';
+import Parent2 from './components/Parent2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -13,6 +16,9 @@ root.render(
   <React.StrictMode>
 		<Hello />
 		<Name />
+		<Message />
+		<Parent />
+		<Parent2 />
   </React.StrictMode>
 );
 
