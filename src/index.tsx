@@ -7,6 +7,9 @@ import Name from "./components/Name";
 import Message from './components/Message';
 import Parent from './components/Parent';
 import Parent2 from './components/Parent2';
+import ContextSample from './components/ContextSample';
+import Counter from './Counter';
+import Counter2 from './components/Counter2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -19,6 +22,9 @@ root.render(
 		<Message />
 		<Parent />
 		<Parent2 />
+		<ContextSample />
+		<Counter initialValue={3} />
+		<Counter2 initialValue={3} />
   </React.StrictMode>
 );
 
