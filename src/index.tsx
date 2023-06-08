@@ -11,13 +11,16 @@ import ContextSample from './components/ContextSample';
 import Counter from './Counter';
 import Counter2 from './components/Counter2';
 import { Parent3 } from "./components/Parent3";
+import { Parent4 } from "./components/Parent4";
+import { Parent5 } from "./components/Parent5";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+	<React.StrictMode>
+{/*
 		<Hello />
 		<Name />
 		<Message />
@@ -27,6 +30,9 @@ root.render(
 		<Counter initialValue={3} />
 		<Counter2 initialValue={3} />
 		<Parent3 />
+		<Parent4 />
+	*/}
+		<Parent5 />
   </React.StrictMode>
 );
 
