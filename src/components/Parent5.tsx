@@ -19,7 +19,7 @@ const IncrementButton = React.memo((props: ButtonProps) => {
 const DoubleButton = React.memo((props: ButtonProps) => {
 	const { onClick } = props;
 	console.log(`DoubleButtonが再描画されました`);
-	return <button onClick = { onClick }>Double</button>
+	return <button onClick={onClick}>Double</button>;
 });
 
 export const Parent5 = () => {
