@@ -14,6 +14,7 @@ import { Parent3 } from "./components/Parent3";
 import { Parent4 } from "./components/Parent4";
 import { Parent5 } from "./components/Parent5";
 import { UseMemoSample } from './components/UseMemoSample';
+import { Clock } from "./components/Clock";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -33,8 +34,9 @@ root.render(
 		<Parent3 />
 		<Parent4 />
 		<Parent5 />
-	*/}
 		<UseMemoSample />
+	*/}
+		<Clock />
   </React.StrictMode>
 );
 
