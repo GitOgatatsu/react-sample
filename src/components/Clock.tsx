@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 
 const UPDATE_CYCLE = 1000;
 const KEY_LOCALE = "KEY_LOCALE";
@@ -33,7 +33,8 @@ export const Clock = () => {
 		};
 	}, []);
 
-	useEffect(() => {
+//	useEffect(() => {
+	useLayoutEffect(() => {
 		const savedLocale = localStorage.getItem(KEY_LOCALE);
 		if (savedLocale !== null) {
 			setLocale(getLocaleFromString(savedLocale));
