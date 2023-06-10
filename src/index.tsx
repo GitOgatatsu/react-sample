@@ -16,6 +16,7 @@ import { Parent5 } from "./components/Parent5";
 import { UseMemoSample } from './components/UseMemoSample';
 import { Clock } from "./components/Clock";
 import Parent6 from "./components/Parent6";
+import Parent7 from "./components/Parent7";
 import ImageUploader from './components/ImageUploader';
 import reportWebVitals from './reportWebVitals';
 
@@ -39,8 +40,9 @@ root.render(
 		<UseMemoSample />
 		<Clock />
 		<Parent6 />
-	*/}
 		<ImageUploader />
+	*/}
+		<Parent7 />
   </React.StrictMode>
 );
 
