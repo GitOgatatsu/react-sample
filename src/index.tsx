@@ -18,6 +18,7 @@ import { Clock } from "./components/Clock";
 import Parent6 from "./components/Parent6";
 import Parent7 from "./components/Parent7";
 import ImageUploader from './components/ImageUploader';
+import { Input } from "./components/Input";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -41,8 +42,9 @@ root.render(
 		<Clock />
 		<Parent6 />
 		<ImageUploader />
-	*/}
 		<Parent7 />
+	*/}
+		<Input />
   </React.StrictMode>
 );
 
